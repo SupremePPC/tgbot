@@ -93,3 +93,42 @@
 2023-06-21 19:26:59.073 [info] fatal: not a git repository (or any of the parent directories): .git
 2023-06-21 19:29:09.561 [info] > git rev-parse --show-toplevel [2ms]
 2023-06-21 19:29:09.561 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-21 19:37:56.410 [info] > git init -b main [2ms]
+2023-06-21 19:37:56.410 [info] error: unknown switch `b'
+usage: git init [-q | --quiet] [--bare] [--template=<template-directory>] [--shared[=<permissions>]] [<directory>]
+
+    --template <template-directory>
+                          directory from which templates will be used
+    --bare                create a bare repository
+    --shared[=<permissions>]
+                          specify that the git repository is to be shared amongst several users
+    -q, --quiet           be quiet
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+2023-06-21 19:38:02.697 [info] > git rev-parse --show-toplevel [1ms]
+2023-06-21 19:38:02.704 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-06-21 19:38:02.726 [info] Open repository: /home/casino-bot.wphost.dev
+2023-06-21 19:38:02.736 [info] > git config --get commit.template [2ms]
+2023-06-21 19:38:02.736 [info] > git fetch [11ms]
+2023-06-21 19:38:02.744 [info] No remotes found in the git config file.
+2023-06-21 19:38:02.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-06-21 19:38:02.748 [info] > git config --get commit.template [7ms]
+2023-06-21 19:38:02.751 [info] No remotes found in the git config file.
+2023-06-21 19:38:02.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-06-21 19:38:02.756 [info] > git config --get commit.template [2ms]
+2023-06-21 19:38:02.759 [info] No remotes found in the git config file.
+2023-06-21 19:38:02.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-06-21 19:38:02.773 [info] > git status -z -uall [11ms]
+2023-06-21 19:38:03.401 [info] > git show --textconv :casino-telegram-bot/routes/web.php [42ms]
+2023-06-21 19:38:03.401 [info] > git show --textconv :casino-telegram-bot/routes/api.php [33ms]
+2023-06-21 19:38:03.401 [info] > git show --textconv :casino-telegram-bot/app/Http/Controllers/ChatbotController.php [25ms]
+2023-06-21 19:38:03.401 [info] > git show --textconv :casino-telegram-bot/config/casinobot.php [16ms]
+2023-06-21 19:38:03.402 [info] > git ls-files --stage -- /home/casino-bot.wphost.dev/casino-telegram-bot/app/Http/Controllers/ChatbotController.php [5ms]
+2023-06-21 19:38:03.405 [info] > git ls-files --stage -- /home/casino-bot.wphost.dev/casino-telegram-bot/routes/api.php [11ms]
+2023-06-21 19:38:03.408 [info] > git ls-files --stage -- /home/casino-bot.wphost.dev/casino-telegram-bot/routes/web.php [17ms]
+2023-06-21 19:38:03.413 [info] > git cat-file -s 1e70f18d86a77138c6aca131c70f40c444311a5a [2ms]
+2023-06-21 19:38:03.414 [info] > git cat-file -s ff1835497612a93a059391e47d10c0847aef3d4e [6ms]
+2023-06-21 19:38:03.414 [info] > git cat-file -s 3913f5b25aa3a4981c3c90bcaf8626846c631890 [9ms]
+2023-06-21 19:38:03.415 [info] > git ls-files --stage -- /home/casino-bot.wphost.dev/casino-telegram-bot/config/casinobot.php [15ms]
+2023-06-21 19:38:03.418 [info] > git cat-file -s 68f1540cd84c68baab428910278221a354eb57bc [1ms]
+2023-06-21 19:38:03.556 [info] > git check-ignore -v -z --stdin [5ms]
