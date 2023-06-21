@@ -1,0 +1,13 @@
+2023-06-21 18:52:32.510 [info] Extension host with pid 473256 started
+2023-06-21 18:52:32.513 [error] Error: EEXIST: file already exists, open '/home/casino-bot.wphost.dev/.vscode-server/data/User/workspaceStorage/9d249df8d2bbaed58224b04e4cca5e14/vscode.lock'
+2023-06-21 18:52:32.516 [info] Lock '/home/casino-bot.wphost.dev/.vscode-server/data/User/workspaceStorage/9d249df8d2bbaed58224b04e4cca5e14/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-06-21 18:52:32.520 [info] Lock '/home/casino-bot.wphost.dev/.vscode-server/data/User/workspaceStorage/9d249df8d2bbaed58224b04e4cca5e14/vscode.lock': The lock does not look stale, elapsed: 344 ms, giving up.
+2023-06-21 18:52:32.526 [info] Lock '/home/casino-bot.wphost.dev/.vscode-server/data/User/workspaceStorage/9d249df8d2bbaed58224b04e4cca5e14-1/vscode.lock': Lock acquired.
+2023-06-21 18:52:33.209 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-21 18:52:33.211 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2023-06-21 18:52:33.458 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-21 18:52:33.662 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-21 18:52:33.663 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-21 18:52:33.989 [info] Eager extensions activated
+2023-06-21 18:52:33.989 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-21 18:52:33.989 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
