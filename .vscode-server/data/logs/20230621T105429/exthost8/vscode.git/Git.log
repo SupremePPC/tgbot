@@ -132,3 +132,15 @@ usage: git init [-q | --quiet] [--bare] [--template=<template-directory>] [--sha
 2023-06-21 19:38:03.415 [info] > git ls-files --stage -- /home/casino-bot.wphost.dev/casino-telegram-bot/config/casinobot.php [15ms]
 2023-06-21 19:38:03.418 [info] > git cat-file -s 68f1540cd84c68baab428910278221a354eb57bc [1ms]
 2023-06-21 19:38:03.556 [info] > git check-ignore -v -z --stdin [5ms]
+2023-06-21 19:38:14.548 [info] > git add -A -- . [13ms]
+2023-06-21 19:38:14.548 [info] warning: could not open directory 'logs/': Permission denied
+2023-06-21 19:38:14.560 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [9ms]
+2023-06-21 19:38:14.564 [info] > git config --get commit.template [1ms]
+2023-06-21 19:38:14.569 [info] > git config --get commit.template [1ms]
+2023-06-21 19:38:14.572 [info] No remotes found in the git config file.
+2023-06-21 19:38:14.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-06-21 19:38:14.585 [info] > git status -z -uall [10ms]
+2023-06-21 19:38:14.744 [info] No remotes found in the git config file.
+2023-06-21 19:38:14.747 [info] > git config --get commit.template [4ms]
+2023-06-21 19:38:14.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-06-21 19:38:14.760 [info] > git status -z -uall [10ms]
